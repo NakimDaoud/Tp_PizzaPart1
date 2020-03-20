@@ -1,0 +1,49 @@
+﻿@model BO.Pizza
+
+@{
+    ViewBag.Title = "_PizzaDetails";
+}
+
+<h4>Pizza</h4>
+<hr />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ingredients)
+        </th>
+
+    </tr>
+
+
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => Model.Nom)
+        </td>
+        <td>
+            @if (Model.Pate != null)
+            {
+                @Html.DisplayFor(modelItem => Model.Pate.Nom)
+            }
+        </td>
+        <td>
+            @if (Model.Ingredients != null)
+            {
+                foreach (var ingredient in Model.Ingredients)
+                {
+                    @Html.DisplayFor(i => ingredient.Nom) <br />
+                }
+            }
+        </td>
+
+
+    </tr>
+
+
+</table>
+

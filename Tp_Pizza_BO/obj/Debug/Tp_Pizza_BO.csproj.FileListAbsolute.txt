@@ -1,0 +1,5 @@
+C:\Users\daoud\source\repos\Tp_Pizza_BO\bin\Debug\BO.dll
+C:\Users\daoud\source\repos\Tp_Pizza_BO\bin\Debug\BO.pdb
+C:\Users\daoud\source\repos\Tp_Pizza_BO\obj\Debug\Tp_Pizza_BO.csproj.CoreCompileInputs.cache
+C:\Users\daoud\source\repos\Tp_Pizza_BO\obj\Debug\BO.dll
+C:\Users\daoud\source\repos\Tp_Pizza_BO\obj\Debug\BO.pdb
